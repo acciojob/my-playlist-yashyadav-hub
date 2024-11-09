@@ -1,1 +1,46 @@
-/*  your css code here. If applicable */
+/* Body Style */
+body {
+    background-color: rgb(204, 204, 204);
+    font-family: Arial, sans-serif;
+}
+
+/* Heading Styles */
+h1, h2 {
+    text-align: center;
+}
+
+/* Playlist Styles */
+ul {
+    padding: 0;
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+    margin: 10px 0;
+}
+
+a {
+    text-decoration-line: none;
+    color: black;
+    font-size: 18px;
+}
+
+a:hover {
+    text-decoration-line: underline;
+}
+
+/* Video and Audio Player Container Styles */
+.player_one, .player_two {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+/* Additional Styling for the players */
+video, audio {
+    width: 80%;  /* Adjust width as necessary */
+    border-radius: 10px;
+}
